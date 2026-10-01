@@ -6,7 +6,7 @@ atributu objekta, kao i eventualno taj atribut izmijeniti (pomoću seter
 metode).
 b. Klasa Zaposleni mora da sadrži metodu koja vrši ispisivanje zaposlenih (Ime
 i prezime, godine staza).
-c. Kreirati makar 5 objekata klase Zaposleni i testirati getter i setter metode,
+c. Kreirati makar 3 objekata klase Zaposleni i testirati getter i setter metode,
 kao i ispis Zaposlenih (ispis objekta klase).
 d. U klasi Zaposleni potrebno je napraviti metodu koja će ispisati ime
 zaposlenog koji ima najveću platu.
@@ -68,7 +68,7 @@ public class Zaposleni {
 		}
 	}
 	public void Ispisivanje() {
-		//println je za primanje jednog argumenta, a ja imam 3 zbog toga nece da mi prihvati sve u jedan red
+		
 		System.out.println("Ime zaposlenog: " + ime + 
                 ", Prezime zaposlenog: " + prezime + 
                 ", Godine staza: " + godine_staza + 
